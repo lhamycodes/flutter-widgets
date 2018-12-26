@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'First Assignment',
+      title: 'Flutter Widgets',
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
         brightness: Brightness.light,
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('First Assignment'),
+          title: Text('Flutter Widgets'),
         ),
         body: TextControl(),
       ),

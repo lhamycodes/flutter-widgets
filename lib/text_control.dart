@@ -20,7 +20,8 @@ class _TextControlState extends State<TextControl> {
         Container(
           margin: EdgeInsets.all(10.0),
           child: RaisedButton(
-            color: Colors.yellowAccent,
+            color: Colors.deepOrange,
+            textColor: Colors.white,
             onPressed: () {
               setState(() {
                 this._pageText = (this._pageText == 'Hi Bro') ? 'Hello World' : 'Hi Bro';
