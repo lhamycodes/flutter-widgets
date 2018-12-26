@@ -25,7 +25,7 @@ class _TextControlState extends State<TextControl> {
             onPressed: () {
               setState(() {
                 this._pageText = (this._pageText == 'Hi Bro') ? 'Hello World' : 'Hi Bro';
-                print("Text Changed");
+                // print("Text Changed");
               });
             },
             child: Text('Change Text'),
